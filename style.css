@@ -1,0 +1,278 @@
+body {
+  background-image: url("images/cap1.PNG");
+  margin: 0%;
+}
+
+.nav1 {
+  background-color: whitesmoke;
+  padding: 20px 0 20px 420px;
+}
+.nav1 > img {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.nav1 > img:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.nav2 {
+  background-color: white;
+  padding: 20px 0 20px 370px;
+}
+.nav2 > img {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.nav2 > img:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+/* cards1*/
+.container {
+  background-color: whitesmoke;
+  height: 1350px;
+  display: flex;
+  width: 1200px;
+  padding: 50px 50px 50px 50px;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 20px;
+  cursor: pointer;
+}
+/* Columns */
+.left-column,
+.right-column {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Sizes */
+.left-column {
+  flex: 2;
+}
+.right-column {
+  flex: 1;
+}
+
+/* Cards */
+.card {
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.card.large-card img {
+  max-height: 250px;
+  object-fit: cover;
+}
+
+.card .text {
+  padding: 15px;
+}
+
+.card h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.card p {
+  padding: 15px;
+  font-size: 14px;
+  color: #333;
+}
+
+/* Color themes */
+.purple {
+  background-color: #a26ee5;
+  color: white;
+}
+.purple:hover {
+  transform: scale(1.05);
+}
+.red {
+  background-color: #e53935;
+  color: white;
+  width: 350px;
+}
+.red:hover {
+  transform: scale(1.05);
+}
+.gray {
+  background-color: #cfd8dc;
+}
+.gray:hover {
+  transform: scale(1.05);
+}
+.blue {
+  background-color: #039be5;
+  color: white;
+}
+.blue:hover {
+  transform: scale(1.05);
+}
+.dark {
+  background-color: #263238;
+  color: white;
+}
+.dark:hover {
+  transform: scale(1.05);
+}
+/* Featured */
+.card-container {
+  width: 1210px;
+  display: flex;
+  justify-content: center;
+  overflow-x: auto;
+  gap: 50px;
+  padding: 40px;
+  margin-left: 200px;
+  margin-right: 200px;
+  background: #222;
+}
+
+.pokemon-card {
+  background: #333;
+  color: #fff;
+  border-radius: 10px;
+  text-align: center;
+  flex: 0 0 180px;
+  padding: 10px;
+  position: relative;
+  transition: transform 0.3s;
+}
+
+.pokemon-card:hover {
+  transform: scale(1.05);
+}
+
+.pokemon-card img {
+  width: 100%;
+  height: auto;
+}
+
+.info {
+  margin-top: 10px;
+}
+
+.featured {
+  background: #000;
+  border: 2px solid gold;
+}
+
+.featured .type.psychic {
+  background: #f25ca2;
+  padding: 2px 6px;
+  border-radius: 4px;
+  display: inline-block;
+  margin: 5px 0;
+}
+
+.featured h3 span {
+  float: right;
+  font-size: 0.8em;
+  color: #ccc;
+}
+button {
+  margin-left: 1300px;
+  margin-top: 10px;
+  margin-right: 200px;
+  padding: 20px 20px 20px 20px;
+  background-color: #222;
+  color: white;
+  cursor: pointer;
+  border-radius: 20px;
+}
+/*Footer*/
+.footer {
+  width: auto;
+  height: 700px;
+  background-color: #232323;
+  display: flex;
+}
+.right {
+  width: 30%;
+  height: 30vh;
+  /* background-color: #4dad5b; */
+  margin-top: 3%;
+  font-size: 15px;
+  font-family: "Open Sans", serif;
+  color: white;
+  line-height: 25px;
+  margin-left: 25px;
+}
+.right a {
+  color: white;
+}
+.left {
+  width: 50%;
+  height: 30vh;
+  /* background-color: #30a7d7; */
+  margin-left: 20%;
+  margin-top: 3%;
+}
+.left > h1 {
+  font-family: "Open Sans", serif;
+  color: white;
+  margin-bottom: 15px;
+  font-size: 25px;
+}
+.left > button {
+  font-family: "Open Sans", serif;
+  color: white;
+  padding: 20px 40px;
+  background-color: #8c8989;
+  margin-top: 10px;
+  margin-left: 10px;
+  border-radius: 5px;
+}
+.left > .input1 {
+  width: 350px;
+  margin-bottom: 9px;
+}
+.left > input {
+  padding: 10px;
+  border-radius: 5px;
+}
+.lower-left {
+  margin-top: 3%;
+  width: 17%;
+  height: 40vh;
+  /* background-color: #6a0dad; */
+  position: relative;
+  top: 40%;
+  right: 40%;
+  line-height: 25px;
+  font-family: "Open Sans", serif;
+  color: white;
+  border-right: 3px solid black;
+}
+.lower-middle > img {
+  width: 15vw;
+  height: 15vh;
+  position: relative;
+  top: 43%;
+  right: 250%;
+}
+.lower-right {
+  margin-top: 3%;
+  width: 17%;
+  height: 40vh;
+  /* background-color: #6a0dad; */
+  position: relative;
+  top: 40%;
+  right: 35%;
+  line-height: 25px;
+  font-family: "Open Sans", serif;
+  color: white;
+  border-left: 3px solid black;
+  padding-left: 30px;
+}
